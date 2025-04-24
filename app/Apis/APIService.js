@@ -3,7 +3,7 @@ export default class APIService {
     // Insert an article
     static recycle(body) {
         return fetch(`https://growthwebsite.vercel.app/api/Recycle`, {
-            method: 'POST',
+            'method': 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
@@ -14,7 +14,7 @@ export default class APIService {
     }
     static chat(body) {
         return fetch(`https://growthwebsite.vercel.app/api/Chat`, {
-            method: 'POST',
+            'method': 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
