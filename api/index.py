@@ -32,5 +32,5 @@ def internal_server_error(error):
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response, 500
 
-api.add_resource(Chat, '/api/chat')
-api.add_resource(Recycle, '/api/recycle')
+api.add_resource(Chat, '/api/chat', methods=['POST'])
+api.add_resource(Recycle, '/api/recycle', methods=['POST'])
