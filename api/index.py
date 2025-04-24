@@ -11,7 +11,7 @@ import sys
 app = Flask(__name__)
 #CORS(app, resources={r"/api/*": {"origins": "*"}})
 CORS(app)
-CORS(app, origins=["https://growthwebsite.vercel.app"])
+#CORS(app, origins=["https://growthwebsite.vercel.app"])
 api = Api(app)
 
 app.config['CORS_HEADERS'] = 'Content-Type'
