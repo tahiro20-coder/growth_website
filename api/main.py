@@ -44,7 +44,8 @@ class Recycle(Resource):
         img = Image.open(BytesIO(base64.b64decode(res))).convert("RGB")
 
         # url = "https://seyf1elislam-test-test.hf.space/classify"
-        url = "https://missingbreath-template-project.hf.space/classify"
+        #url = "https://missingbreath-template-project.hf.space/classify"
+        url = "https://tahiro20-growth.hf.space/classify"
 
         try:
             response = upload_file(img,url)

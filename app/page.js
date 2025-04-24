@@ -43,38 +43,20 @@ function Home() {
        <div className="z-10 text-center d-flex flex-column justify-content-center align-items-center">
         <span style={{color:"var(--main)",fontWeight:"200",fontSize:"24px"}}> {t("Save The World")} </span>
             <div className='intro-title text-center'>
-                <span style={{color:"white"}}>  {t("Recycle Your Garbage")}  </span>
+                <span style={{color:"white"}}>  {t("Heal your plants")}  </span>
             </div>
             <div className='w-75 text-center mb-4' style={{color:"white"}}>
-             {t("Recycle Right can be your one-stop shop for all things recycling. We offer information on what can be recycled, how to recycle properly, and the benefits of recycling.")} 
+             {t("Your Guide to Healthy Plant")} 
             
             </div>
             
             <Link rel="prefetch"  href='/Recycle' >
-                <Button variant='contained' className='intro-button'> {t("Recycle Now")} </Button>
+                <Button variant='contained' className='intro-button'> {t("Healt it Now")} </Button>
             </Link>
             </div>
         </Container>
 
-        <Container  className='d-flex flex-column justify-content-center align-items-center six-page text-center'>
-        <span style={{color:"var(--main)",fontWeight:"200",fontSize:"24px"}}> {t("So Much to do!")} </span>
-            <div className='second-title text-center' style={{fontSize:"40px"}}>
-                <span> {t("Different")}  <span style={{color:"var(--main)"}}>  {t("Benifits")}   </span>  {t("&")}   
-                <span style={{color:"var(--main)"}}>  {t("Solutions")} </span> 
-                 <span style={{color:"var(--main)"}}>  {t("To Discover")} .</span></span>
-            </div>
-            <div>
-             {t("Dive deeper into recycling! Discover surprising eco-benefits, explore easy solutions at home, and build a greener future, together, one step at a time.")} 
-            
-            </div>
-            <div className='d-flex flex-row flex-wrap justify-content-center align-items-center h-100 w-100 mt-4' style={{gap:'15px'}}>
-                <CardShow title= {t('Recycle')} text= {t('Recycling is now easy, you can recycle up to 12 different types of garbages from your home.')} link={"/Recycle"} icon={<RecyclingIcon style={{fontSize:"80px"}}></RecyclingIcon>}/>
-                <CardShow title= {t('Assistant')} text= {t('You are still struggling in finding the right type of your garbage? use the Assistant bot to help you.')} link={"/Assistant"} icon={<SmartToyIcon style={{fontSize:"80px"}}></SmartToyIcon>}/>
-                <CardShow title= {t('Industries')} text= {t('You want to inherit our model in your application or website? You can contact as to find more.')} link={"/Industries"} icon={<PrecisionManufacturingIcon style={{fontSize:"80px"}}></PrecisionManufacturingIcon>}/>
-                <CardShow title= {t('Contact')} text= {t('If you have any questions or suggestions, you can talk to our team for a fast replying service.')} link={"/Contact"} icon={<GroupsIcon style={{fontSize:"80px"}}></GroupsIcon>}/>
-            </div>
-            
-        </Container>
+        
             
         <Container fluid="x" className='d-flex flex-row page-three'>
             <Image src={plnt} alt=""  className='img-left' width={400} height={400}/>
@@ -117,14 +99,7 @@ function Home() {
         </Container>
 
 
-        <Container>
-        <div className='second-title text-end'>
-                        <span> {t("What Can you")}  <span style={{color:"var(--main)"}}> 
-                         {t("Classify")} 
-                         </span></span>
-                    </div>
-            <TabsHolder></TabsHolder>
-        </Container>
+        
         
 
         <Container className='d-flex flex-column justify-content-center align-items-center'style={{gap:"15px"}}>
@@ -154,12 +129,12 @@ function Home() {
       <div className="absolute inset-0 bg-black/60 shadow-overlay z-0"></div>
 
       <div className="z-10 text-center d-flex flex-column justify-content-center align-items-center">
-        <span style={{color:"var(--main)",fontWeight:"200",fontSize:"24px"}}> {t('Our Recycling Model')}</span>
+        <span style={{color:"var(--main)",fontWeight:"200",fontSize:"24px"}}> {t('Our Diagnosis Model')}</span>
             <div className='intro-title text-center'>
                 <span style={{color:"white"}}> {t("We've Reached a Good Point")}  </span>
             </div>
             <div className='w-75 text-center mb-4' style={{color:"white"}}>
-             {t("We've reached a tipping point in recycling!  Our innovative model, trained on a massive dataset of over 2,000 images, boasts an impressive 95% accuracy in identifying recyclable materials. But speed is key – and our model delivers lightning-fast results, empowering you to make informed recycling decisions in seconds.")} 
+             {t("We've reached a tipping point in Diagnosis!  Our innovative model, trained on a massive dataset of over 2,000 images, boasts an impressive 94% accuracy in identifying recyclable materials. But speed is key – and our model delivers lightning-fast results, empowering you to make informed recycling decisions in seconds.")} 
             
             </div>
             </div>
