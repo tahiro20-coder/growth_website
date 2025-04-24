@@ -20,7 +20,7 @@ def encode_image(image_path):
 
 from random import randrange
 
-def upload_file(file, url="http://localhost:8000/classify"):
+def upload_file(file, url):
     with BytesIO() as buf:
       file.save(buf, 'jpeg')
       image_bytes = buf.getvalue()

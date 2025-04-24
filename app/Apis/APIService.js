@@ -14,7 +14,7 @@ export default class APIService {
     }
     static chat(body) {
         return fetch(`https://growthwebsite.vercel.app/api/chat`, {
-            'method': 'POST',
+            method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
